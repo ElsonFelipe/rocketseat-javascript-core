@@ -43,4 +43,46 @@
 ```js
     console.log(12.5 + 12)
 ```
+
+### Boolean
+
+* Somente 2 valores
+
+    true -- verdadeiro
+    false -- falso
+
+```js
+    console.log(true)
+```
+
+### Vazio
+
+* undefined
+    * indefinido
+
+* null
+    * nulo
+    * objeto que não possui nada dentro
+    * diferente de indefinido
+
+```js
+    console.log(null === undefined) // false
+```
  
+ ### Object 
+
+ * Objeto
+ * Propriedades / Atributos
+ * Funcionalidades / Métodos
+
+ ```js
+    console.log({
+        nome: "Elson",
+        idade: 29,
+        andar: function() {
+            console.log('andar')
+        }
+    })
+ ```
+
+ ### Array

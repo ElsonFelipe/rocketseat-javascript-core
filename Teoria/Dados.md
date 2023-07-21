@@ -1,4 +1,4 @@
-# Tipos de dados
+# Dados
 
 * Gramática
     * Elementos da linguagem e suas combinações
@@ -18,6 +18,40 @@
 
 > Vamos aprender os tipos de dados mais utilizados na linguagem
     * Você sabia que é possível aprender 80% de uma lingua nova, com cerca de 20% de vocabulário? (até menos)
+
+## Tipos de dados
+
+Conforme o ECMAScript standard temos 9 tipos de dados:
+
+* Data types
+    * Primitive / Primitive value
+    * Structural
+    * Structural Primitive
+
+## Primitivos
+
+* String
+* Number
+* Boolean
+* undefined
+* Symbol
+* BigInt
+
+## Estruturais
+
+* Object
+    * Array
+    * Map
+    * Set
+    * Date
+    * ...
+* Function
+
+## Primitivo Estrutural / Structural Root Primitive
+
+* null
+
+##  Exemplos
 
 ### String
 
@@ -71,9 +105,9 @@
  
  ### Object 
 
- * Objeto
- * Propriedades / Atributos
- * Funcionalidades / Métodos
+* Objeto
+* Propriedades / Atributos
+* Funcionalidades / Métodos
 
  ```js
     console.log({
@@ -86,3 +120,11 @@
  ```
 
  ### Array
+
+* Vetores
+* Uma lista
+* Agrupamento de dados
+
+```js
+    console.log(["Leite", "Ovos", 2, 3])
+```
